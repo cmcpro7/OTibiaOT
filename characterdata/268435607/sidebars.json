@@ -8,7 +8,6 @@
             "battleListFilters": [
             ],
             "battleListSortOrder": [
-                "byAgeAscending",
                 "byAgeAscending"
             ],
             "contentHeight": 38,
@@ -22,7 +21,6 @@
             "battleListFilters": [
             ],
             "battleListSortOrder": [
-                "byAgeAscending",
                 "byAgeAscending"
             ],
             "contentHeight": 38,
@@ -34,7 +32,7 @@
         }
     },
     "bestiaryTrackerWidgetOptions": {
-        "contentHeight": 38,
+        "contentHeight": 0,
         "contentMaximized": true,
         "sortKey": "name",
         "sortOrder": "ascending"
@@ -45,7 +43,7 @@
         "sortKey": "remainingCooldown"
     },
     "bosstiaryTrackerWidgetOptions": {
-        "contentHeight": 38,
+        "contentHeight": 0,
         "contentMaximized": true,
         "sortKey": "name",
         "sortOrder": "ascending"
@@ -66,7 +64,7 @@
         "contentMaximized": true
     },
     "imbuementTrackerWidgetOptions": {
-        "contentHeight": 200,
+        "contentHeight": 0,
         "contentMaximized": true,
         "showAlmostGone": true,
         "showAlmostNew": true,
@@ -100,16 +98,8 @@
         "contentHeight": 0,
         "contentMaximized": true
     },
-    "playerGuideWidgetOptions": {
-        "confirmedLevelSpecialPopups": [
-        ],
-        "contentHeight": 200,
-        "contentMaximized": true,
-        "pendingLevelSpecialPopups": [
-        ]
-    },
     "preyWidgetOptions": {
-        "contentHeight": 59,
+        "contentHeight": 0,
         "contentMaximized": true
     },
     "questTrackerWidgetOptions": {
@@ -121,8 +111,8 @@
         ]
     },
     "sidebarPanelsOptions": {
-        "chaseModeEnabled": false,
-        "combatMode": 1,
+        "chaseModeEnabled": true,
+        "combatMode": 2,
         "controlButtonsVisible": true,
         "minimapZoomLevel": 0,
         "minimizeInventory": false
@@ -134,23 +124,12 @@
                 {
                     "instance": 0,
                     "type": "battleList"
-                },
-                {
-                    "type": "skills"
-                }
-            ],
-            [
-                {
-                    "type": "questTracker"
-                },
-                {
-                    "type": "playerGuide"
                 }
             ]
         ]
     },
     "skillsWidgetOptions": {
-        "contentHeight": 200,
+        "contentHeight": 0,
         "contentMaximized": true,
         "invisibleProgressBars": [
         ]

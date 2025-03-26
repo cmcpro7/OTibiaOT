@@ -14,7 +14,7 @@
         "clientWindowIsMaximized": true,
         "clientWindowPositionX": 450,
         "clientWindowPositionY": 191,
-        "clientWindowScreenName": "SFP2702G FHD",
+        "clientWindowScreenName": "\\\\.\\DISPLAY1",
         "clientWindowWidth": 1020
     },
     "controlButtonsOptions": {
@@ -44,13 +44,9 @@
             "exaltationForgeDialog",
             "friendsDialog",
             "lenshelpFunction",
-            "highscoresDialog",
-            "playerGuide",
-            "manageShortcuts"
+            "highscoresDialog"
         ]
     },
-    "deviceCookieOptions": [
-    ],
     "hotkeyOptions": {
         "autoSwitchHotkeyPreset": false,
         "currentHotkeySetName": "Knight",
@@ -2954,9 +2950,6 @@
         },
         "showStaticHotkeysFirst": true
     },
-    "news": {
-        "maxunlocklevel": 580
-    },
     "options": {
         "ChatEnabled": true,
         "GlobalMessagesEnabled": true,
@@ -2989,7 +2982,6 @@
         "actionButtonShowGraphicalCooldown": true,
         "actionButtonShowHotkey": true,
         "actionButtonShowSpellParameters": true,
-        "alwaysTurnTowardsMoveDirection": false,
         "antialiasingMode": 1,
         "autoChaseEnabled": false,
         "charTradePaymentRemindAgain": 0,
@@ -3026,7 +3018,7 @@
         "emergencyDialogVersion": 0,
         "frameRateLimit": 60,
         "frameRateLimitEnabled": true,
-        "gameWindowLowerPaneHeight": 189,
+        "gameWindowLowerPaneHeight": -52,
         "gameWindowResizingMode": 2,
         "gameWindowScaleOnlyByEvenMultiples": false,
         "gameWindowShowBoostedCreatureMessages": true,
@@ -3043,11 +3035,10 @@
         "gameWindowShowTargetHighlight": true,
         "gameWindowShowTextualEffects": true,
         "gameWindowShowTragetFrame": true,
-        "gameWindowUpperPaneHeight": 759,
+        "gameWindowUpperPaneHeight": 794,
         "inspectPlayerAllowAllEnabled": false,
         "keyboardDelayMs": 250,
         "keyboardDelayUseDefault": true,
-        "launcherPatchFixupDone": false,
         "lightAmbientLevel": 0.25,
         "lightAttenuationCloudsIndoor": 0.75,
         "lightEffectsEnabled": true,
@@ -3139,7 +3130,6 @@
         "statusBarEnabled": true,
         "statusPanelEnabled": false,
         "storeAskBeforeBuyingProducts": true,
-        "useFreetypeRenderer": false,
         "vSyncEnabled": false
     },
     "pinnedCharacters": [
