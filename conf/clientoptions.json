@@ -3018,7 +3018,7 @@
         "emergencyDialogVersion": 0,
         "frameRateLimit": 60,
         "frameRateLimitEnabled": true,
-        "gameWindowLowerPaneHeight": -52,
+        "gameWindowLowerPaneHeight": 0,
         "gameWindowResizingMode": 2,
         "gameWindowScaleOnlyByEvenMultiples": false,
         "gameWindowShowBoostedCreatureMessages": true,
