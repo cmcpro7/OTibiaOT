@@ -126,6 +126,10 @@
                 {
                     "instance": 0,
                     "type": "battleList"
+                },
+                {
+                    "instance": 0,
+                    "type": "container"
                 }
             ]
         ]
