@@ -4,6 +4,20 @@
         "contentMaximized": true
     },
     "battleListsOptions": {
+        "0": {
+            "battleListFilters": [
+            ],
+            "battleListSortOrder": [
+                "byAgeAscending",
+                "byAgeAscending"
+            ],
+            "contentHeight": 38,
+            "contentMaximized": true,
+            "isPartyView": false,
+            "isPrimary": true,
+            "name": "",
+            "showFilters": false
+        },
         "253": {
             "battleListFilters": [
             ],
@@ -15,20 +29,6 @@
             "contentMaximized": true,
             "isPartyView": true,
             "isPrimary": false,
-            "name": "",
-            "showFilters": false
-        },
-        "254": {
-            "battleListFilters": [
-            ],
-            "battleListSortOrder": [
-                "byAgeAscending",
-                "byAgeAscending"
-            ],
-            "contentHeight": 38,
-            "contentMaximized": true,
-            "isPartyView": false,
-            "isPrimary": true,
             "name": "",
             "showFilters": false
         }
@@ -53,10 +53,6 @@
     "containersOptions": {
         "0": {
             "contentHeight": 195,
-            "contentMaximized": true
-        },
-        "1": {
-            "contentHeight": 182,
             "contentMaximized": true
         }
     },
@@ -96,7 +92,7 @@
     "npcTradeOptions": {
         "allowLargeTradesWithoutWarning": false,
         "allowSellingEquippedItems": false,
-        "contentHeight": 684,
+        "contentHeight": 211,
         "contentMaximized": true,
         "ignoreCapacityWhenBuying": false,
         "purchaseShoppingBagWhenBuying": false,
@@ -140,7 +136,8 @@
         "openWidgetsOrderPerSidebar": [
             [
                 {
-                    "type": "skills"
+                    "instance": 0,
+                    "type": "battleList"
                 },
                 {
                     "instance": 0,
@@ -153,16 +150,12 @@
                 },
                 {
                     "type": "questTracker"
-                },
-                {
-                    "instance": 1,
-                    "type": "container"
                 }
             ]
         ]
     },
     "skillsWidgetOptions": {
-        "contentHeight": 200,
+        "contentHeight": 0,
         "contentMaximized": true,
         "defenceStatsVisible": true,
         "invisibleProgressBars": [
@@ -178,6 +171,7 @@
         "showFreeSpells": true,
         "showHealingSpellGroup": true,
         "showKnightSpells": true,
+        "showMonkSpells": true,
         "showOnlyCurrentLevel": false,
         "showOnlyCurrentVocation": false,
         "showPaladinSpells": true,

@@ -8,6 +8,7 @@
             "battleListFilters": [
             ],
             "battleListSortOrder": [
+                "byAgeAscending",
                 "byAgeAscending"
             ],
             "contentHeight": 38,
@@ -21,6 +22,7 @@
             "battleListFilters": [
             ],
             "battleListSortOrder": [
+                "byAgeAscending",
                 "byAgeAscending"
             ],
             "contentHeight": 38,
@@ -32,7 +34,7 @@
         }
     },
     "bestiaryTrackerWidgetOptions": {
-        "contentHeight": 0,
+        "contentHeight": 38,
         "contentMaximized": true,
         "sortKey": "name",
         "sortOrder": "ascending"
@@ -43,12 +45,16 @@
         "sortKey": "remainingCooldown"
     },
     "bosstiaryTrackerWidgetOptions": {
-        "contentHeight": 0,
+        "contentHeight": 38,
         "contentMaximized": true,
         "sortKey": "name",
         "sortOrder": "ascending"
     },
     "containersOptions": {
+        "0": {
+            "contentHeight": 65,
+            "contentMaximized": true
+        }
     },
     "damageInputAnalyserWidgetOptions": {
         "contentHeight": 0,
@@ -64,7 +70,7 @@
         "contentMaximized": true
     },
     "imbuementTrackerWidgetOptions": {
-        "contentHeight": 0,
+        "contentHeight": 200,
         "contentMaximized": true,
         "showAlmostGone": true,
         "showAlmostNew": true,
@@ -116,11 +122,15 @@
     },
     "sidebarPanelsMangerOptions": {
         "panelsOrder": [
+            "minimap",
+            "hitpointManabar",
+            "inventoryStatus",
+            "buttons"
         ]
     },
     "sidebarPanelsOptions": {
-        "chaseModeEnabled": true,
-        "combatMode": 2,
+        "chaseModeEnabled": false,
+        "combatMode": 1,
         "controlButtonsVisible": true,
         "minimapZoomLevel": 0,
         "minimizeInventory": false
@@ -132,6 +142,10 @@
                 {
                     "instance": 0,
                     "type": "battleList"
+                },
+                {
+                    "instance": 0,
+                    "type": "container"
                 }
             ],
             [
@@ -145,7 +159,7 @@
         ]
     },
     "skillsWidgetOptions": {
-        "contentHeight": 0,
+        "contentHeight": 200,
         "contentMaximized": true,
         "defenceStatsVisible": true,
         "invisibleProgressBars": [
@@ -161,6 +175,7 @@
         "showFreeSpells": true,
         "showHealingSpellGroup": true,
         "showKnightSpells": true,
+        "showMonkSpells": true,
         "showOnlyCurrentLevel": false,
         "showOnlyCurrentVocation": false,
         "showPaladinSpells": true,
